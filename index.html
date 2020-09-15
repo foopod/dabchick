@@ -1,14 +1,21 @@
 <html>
 
 <head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <style>
         body{
             max-width: 36em;
             margin:auto;
+            
+            background-color: #DDD;
         }
 
         #header{
             text-align: center;
+            padding:0.5em;
+            background-color: #FFF;
         }
 
         .vote{
@@ -22,6 +29,9 @@
             margin-top: -8px;
             font-size: 50px;
         }
+        h2{
+            font-size:16px;
+        }
         .subtitle{
             
         }
@@ -30,8 +40,15 @@
             color:blue;
         }
 
+        #feed{
+            background-color: #DDD;
+            padding:0.5em;
+        }
         article{
-            margin-top:2em;
+            background-color: #FFF;
+            padding:1em;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+            margin-bottom: 1em;
         }
     </style>
 </head>
@@ -44,9 +61,15 @@
         <div class="moretext">for Bird of the Year 2020</div>
     </div>
 
-    <article>
-        <h2>The Political Campaign we really care about.</h2>
-        <img width="100%" src="nominee.png">
-    </article>
+    <div id="feed">
+        <article>
+            <h2>The Political Campaign of 2020 we actually care about.</h2>
+            <img width="100%" src="dabchick-b.png">
+        </article>
+        <article>
+            <h2>When you realise you can use a 5 year old meme to push your own agenda.</h2>
+            <img width="100%" src="nominee.png">
+        </article>
+    </div>
 </body>
 </html>
